@@ -6,7 +6,7 @@
 В самом простом режиме жалюзи подключаются через 2 реле - одно крутит вниз, другое вверх.
 Для того, чтобы отдельно управлять дверью на вернде и жалюзи на всех окнах используется блок из 4х реле.
 ![image](https://github.com/ELAPS0/HA/assets/59027876/b8bc4ddd-1689-469e-b599-ca3afd05d841)
-Использовать GPIO15(D8) не получилось. Предположительно потому, что он подтянут к земле и ["boot fails, bf pulled to HIGH"] (https://community.home-assistant.io/t/simple-push-button-wiring-and-configuration-on-a-wemos-d1-through-tasmota-on-ha/449497/4)
+Использовать GPIO15(D8) не получилось. Предположительно потому, что он подтянут к земле и ["boot fails, bf pulled to HIGH"](https://community.home-assistant.io/t/simple-push-button-wiring-and-configuration-on-a-wemos-d1-through-tasmota-on-ha/449497/4)
 
 Для конфигурации tasmota использубтся следующие команды:
 1. _SetOption80 1_ - включает режим жалюзи
